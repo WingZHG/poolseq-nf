@@ -25,10 +25,9 @@ make
 
 ## Running the workflow
 
-You should run this in a screen session.
 
 ```
-nextflow run main.nf -cpus <# of cpus> --sample_sheet <path_to_sample_sheet> --species c_elegans -profile quest -resume
+nextflow run main.nf -cpus <# of cpus> --sample_sheet <path_to_sample_sheet> -profile quest -resume
 
 Ex:
 nextflow run main.nf -cpus 8 --sample_sheet sample_sheet.csv --genome "/home/$USER/scratch/pool-seq/genome/genome.fa" -resume
