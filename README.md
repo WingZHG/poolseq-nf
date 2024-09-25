@@ -5,7 +5,8 @@
 Dependencies:
 
 ```
-module load nextflow
+module load StdEnv/2020
+module load nextflow/22.10.8
 module load fastqc/0.11.9
 module load bwa
 module load sambamba
