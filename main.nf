@@ -123,7 +123,7 @@ process alignment {
     tag {row.id}
     publishDir "${params.publish_dir}/04_align", mode: 'copy'
     input:
-        tuple val(row), file(reads1), file(reads2)
+        tuple val(row), file(trimmed_R1), file(trimmed_R2)
         path(bwa_idx)
         
     output:
